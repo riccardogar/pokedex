@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
     <title>Pokémon Counter</title>
     <meta name="author" content="Riccardo Garutti" />
     <meta name="description" content="counter program" />
@@ -13,11 +13,7 @@
     <h1>Pokémon Counter</h1>
     <div class="pokedex">
       <img id="pokemonImage" src="" alt="Pokemon" />
-      <div class="buttons">
-        <button class="medium-buttons" id="decreaseButton">-</button>
-        <button class="small-button" id="resetButton">RESET</button>
-        <button class="medium-buttons" id="increaseButton">+</button>
-      </div>
+      <div class="buttons" id="buttonsContainer"></div>
       <div class="attributes">
         <div id="pokemonName"></div>
         <div class="skills">
@@ -28,6 +24,6 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
   </body>
 </html>
