@@ -35,7 +35,6 @@ buttonsContainer.addEventListener("click", (event) => {
   if (id === "increaseButton") {
     currentPokemonId++;
   } else if (id === "decreaseButton" && currentPokemonId > 1) {
-    // Ensure ID doesn't go below 1
     currentPokemonId--;
   } else if (id === "resetButton") {
     currentPokemonId = 1;
