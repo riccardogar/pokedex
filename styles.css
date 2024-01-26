@@ -53,18 +53,18 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
+  background-color: #007bff;
+  padding: 10px;
+  margin: 0 15px;
+  font-size: 30px;
 }
 
-button#decreaseButton,
-button#increaseButton {
-  background-color: #007bff;
-  margin: 0 30px;
+.button-large {
   font-size: 50px;
-  padding: 10px;
   width: 100px;
 }
 
-button#resetButton {
+.button-medium {
   background-color: #dc7200;
   font-size: 30px;
   padding: 5px;
@@ -74,8 +74,7 @@ button:hover {
   transform: scale(1.1);
 }
 
-button#decreaseButton:hover,
-button#increaseButton:hover {
+button-medium:hover {
   background-color: #0092eb;
 }
 
@@ -124,19 +123,14 @@ button#increaseButton:hover {
     height: auto;
     width: 180px;
   }
-  button#decreaseButton,
-  button#increaseButton {
+  .button-large,
+  .button-medium {
     margin: 0 15px;
     width: 70px;
-  }
-
-  button#resetButton {
-    font-size: 25px;
   }
   #pokemonName {
     font-size: 26px;
   }
-
   .skills {
     font-size: 20px;
     width: 220px;
