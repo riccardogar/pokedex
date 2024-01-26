@@ -9,8 +9,8 @@ Pokémon Counter is a web-based application that allows users to browse through 
 
 ## Project Structure
 - `index.html` - The main HTML file that structures the web page.
-- `styles.css` - Contains all the styling for the project to ensure a pleasant and responsive user interface.
-- `script.js` - The JavaScript file that contains the logic to interact with the PokéAPI and manipulate the DOM based on user interaction.
+- `assets/styles.css` - Contains all the styling for the project to ensure a pleasant and responsive user interface.
+- `assets/script.js` - The JavaScript file that contains the logic to interact with the PokéAPI and manipulate the DOM based on user interaction.
 
 
 ## Usage
