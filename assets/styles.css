@@ -74,8 +74,8 @@ button:hover {
   transform: scale(1.1);
 }
 
-button-medium:hover {
-  background-color: #0092eb;
+.button-medium:hover {
+  background-color: #eb9d00;
 }
 
 .attributes {
