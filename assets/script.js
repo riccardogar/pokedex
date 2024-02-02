@@ -8,23 +8,36 @@ const buttonsContainer = document.getElementById("buttonsContainer");
 
 let currentPokemonId = 1;
 
-// Create buttons
-const increaseButton = document.createElement("button");
-increaseButton.className = "button-large";
-increaseButton.textContent = "+";
-increaseButton.id = "increaseButton";
+// Utility function for creating DOM elements
+function createElement(tagName, className, innerHTML, id) {
+  const element = document.createElement(tagName);
+  if (className) element.className = className;
+  if (innerHTML) element.innerHTML = innerHTML;
+  if (id) element.id = id;
+  return element;
+}
 
-const decreaseButton = document.createElement("button");
-decreaseButton.className = "button-large";
-decreaseButton.textContent = "-";
-decreaseButton.id = "decreaseButton";
+// Using the utility function to create buttons
+const increaseButton = createElement(
+  "button",
+  "button-large",
+  "+",
+  "increaseButton"
+);
+const decreaseButton = createElement(
+  "button",
+  "button-large",
+  "-",
+  "decreaseButton"
+);
+const resetButton = createElement(
+  "button",
+  "button-medium",
+  "RESET",
+  "resetButton"
+);
 
-const resetButton = document.createElement("button");
-resetButton.className = "button-medium";
-resetButton.textContent = "RESET";
-resetButton.id = "resetButton";
-
-// Append buttons to the buttonsContainer
+// Appending buttons to the container
 buttonsContainer.appendChild(decreaseButton);
 buttonsContainer.appendChild(resetButton);
 buttonsContainer.appendChild(increaseButton);
