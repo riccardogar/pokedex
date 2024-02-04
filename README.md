@@ -23,7 +23,6 @@ Pokémon Counter is a web-based application that allows users to browse through 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-email: riccardogarutti@gmail.com
 Project Link: [https://riccardogar.github.io/pokedex/](https://riccardogar.github.io/pokedex/)
 
 ## Photo
